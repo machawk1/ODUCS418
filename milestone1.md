@@ -17,7 +17,7 @@ This milestone is the first step in building a fully-operational Q&A website. Yo
 ### Requirements (Base)
 
 1. The web site must provide a web page that allows a registered user to submit a question to the website. This user is the ASKER in the below requirements.
-2. Users must be able to log into your web site using the credentials supplied. There is no 
+2. Users must be able to log into your web site using the [credentials supplied](https://github.com/machawk1/ODUCS418/blob/spring2015/credentials.txt). There is no 
 need to implement new user registration.
 3. The user login process must use the HTTP POST method.
 4. Questions shall be stored in a MySQL database with a reference to the ASKER. Answers corresponding to questions shall be stored in the database as well.
