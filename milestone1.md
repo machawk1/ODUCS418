@@ -17,16 +17,16 @@ This milestone is the first step in building a fully-operational Q&A website. Yo
 ### Requirements (Base)
 
 1. The web site must provide a web page that allows a registered user to submit a question to the website. This user is the ASKER in the below requirements.
-1. Users must be able to log into your web site using the credentials supplied. There is no 
+2. Users must be able to log into your web site using the credentials supplied. There is no 
 need to implement new user registration.
-1. The user login process must use the HTTP POST method.
-1. Questions shall be stored in a MySQL database with a reference to the ASKER. Answers corresponding to questions shall be stored in the database as well.
-1. The question submission interface must minimally consist of a "title" text field and a "content" text field and use HTML forms.
-1. For each question, allow other registered users to submit answers to the questions (potentially multiple answers per user per question).
+3. The user login process must use the HTTP POST method.
+4. Questions shall be stored in a MySQL database with a reference to the ASKER. Answers corresponding to questions shall be stored in the database as well.
+5. The question submission interface must minimally consist of a "title" text field and a "content" text field and use HTML forms.
+6. For each question, allow other registered users to submit answers to the questions (potentially multiple answers per user per question).
   * Other answers to a question must be displayed along with the associated question.
-1. The ASKER shall have the ability to mark the answer they feel answers their question best. See StackOverflow's checkmark on answers as an example of this.
-1. The question display interface must minimally consist of the question contents, associated answers, the author of the question/answers, and and indicator of the answer marked by the ASKER.
-1. The home page for your web site must provide links to the questions previously asked, minimally including the question title.
+7. The ASKER shall have the ability to mark the answer they feel answers their question best. See StackOverflow's checkmark on answers as an example of this.
+8. The question display interface must minimally consist of the question contents, associated answers, the author of the question/answers, and and indicator of the answer marked by the ASKER.
+9. The home page for your web site must provide links to the questions previously asked, minimally including the question title.
 
 ### Requirements (Get Ahead)
 
