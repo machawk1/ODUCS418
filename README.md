@@ -8,7 +8,7 @@ Below are links to students' project repositories for the class based on their s
 * achverch ([link provided](https://github.com/machawk1/ODUCS418/blob/spring2015/users/achverch) is not a GitHub repository)
 * [acoffman](https://github.com/atc07d/WebProgramming)
 * [cbliss](https://github.com/thecbliss/cblissCS418)
-* cteague ([link provided](https://github.com/machawk1/ODUCS418/blob/spring2015/users/cteague) points to class repo fork and not student's project repo)
+* [cteague](https://github.com/chateague/ODUCS418)
 * [dwebste](https://github.com/DWebsterJr/Spring15)
 * jbennett (no link provided in [user file submitted](https://github.com/machawk1/ODUCS418/blob/spring2015/users/jbennett))
 * [mvanacor](https://github.com/mvanacor/cs418Project)
