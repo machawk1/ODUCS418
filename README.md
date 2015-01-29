@@ -10,7 +10,7 @@ Below are links to students' project repositories for the class based on their s
 * [cbliss](https://github.com/thecbliss/cblissCS418)
 * [cteague](https://github.com/chateague/ODUCS418)
 * [dwebste](https://github.com/DWebsterJr/Spring15)
-* jbennett (no link provided in [user file submitted](https://github.com/machawk1/ODUCS418/blob/spring2015/users/jbennett))
+* jbennett ([link provided](https://github.com/jbennett122/CS418WebDev) points to fork of the class repo and not student's project repo.)
 * [mvanacor](https://github.com/mvanacor/cs418Project)
 * [mletchwo](https://github.com/mletchworth/CS-418)
 * [ngoodall](http://github.com/CatLover91/WebDevCourse)
