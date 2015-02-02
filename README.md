@@ -5,7 +5,7 @@ This GitHub repository will be the basis for submitting assignments for CS418 - 
 ## Student Project Repositories 
 Below are links to students' project repositories for the class based on their submission in <a href="http://www.cs.odu.edu/~mkelly/semester/2015_spring/cs418/assignments/assignment1.html">assignment 1</a>.
 
-* achverch ([link provided](https://github.com/machawk1/ODUCS418/blob/spring2015/users/achverch) is not a GitHub repository)
+* [achverch](https://github.com/andrewchverch/WebProjectCS)
 * [acoffman](https://github.com/atc07d/WebProgramming)
 * [cbliss](https://github.com/thecbliss/cblissCS418)
 * [cteague](https://github.com/chateague/Chas-ODUCS418)
@@ -16,4 +16,4 @@ Below are links to students' project repositories for the class based on their s
 * [ngoodall](http://github.com/CatLover91/WebDevCourse)
 * [rodonnel](https://github.com/rcodonnell/cs418Project)
 
-1 problem need correcting (see above). 10/13 students submitted pull requests.
+10/13 students (listed above) submitted pull requests.
