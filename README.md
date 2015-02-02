@@ -16,4 +16,4 @@ Below are links to students' project repositories for the class based on their s
 * [ngoodall](http://github.com/CatLover91/WebDevCourse)
 * [rodonnel](https://github.com/rcodonnell/cs418Project)
 
-2 problems need correcting (see above). 10/13 students submitted pull requests.
+1 problem need correcting (see above). 10/13 students submitted pull requests.
