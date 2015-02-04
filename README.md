@@ -11,9 +11,10 @@ Below are links to students' project repositories for the class based on their s
 * [cteague](https://github.com/chateague/Chas-ODUCS418)
 * [dwebste](https://github.com/DWebsterJr/Spring15)
 * [jbennett](https://github.com/jbennett122/JBENNETT_CS418)
+* [kshena](https://github.com/kshena/Ridi)
 * [mvanacor](https://github.com/mvanacor/cs418Project)
 * [mletchwo](https://github.com/mletchworth/CS-418)
 * [ngoodall](http://github.com/CatLover91/WebDevCourse)
 * [rodonnel](https://github.com/rcodonnell/cs418Project)
 
-10/13 students (listed above) submitted pull requests.
+11/13 students (listed above) submitted pull requests.
