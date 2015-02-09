@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 ######################################################################
 # CS418 Repo Puller
 #
@@ -40,23 +42,24 @@ time.sleep(5)
 users = glob.glob(os.path.join(destinationPath+"/users",'*'))
 
 for userFile in users:
-    fo = open(userFile,"r")
-    csUsername = os.path.basename(fo.name)
-    csStudentRepoURI = fo.readline().strip()
+    with open(userFile,"r") as fo:
+        csUsername = os.path.basename(fo.name)
+        csStudentRepoURI = fo.readline().strip()
 
-    # Sanitize the repo URIs as submitted by students to use SSH
-    csStudentRepoURI = csStudentRepoURI.replace("http://","https://")
-    csStudentRepoURI = csStudentRepoURI.replace("https://github.com/","git@github.com:")
+        # Sanitize the repo URIs as submitted by students to use SSH
+        csStudentRepoURI = csStudentRepoURI.replace("http://","https://")
+        csStudentRepoURI = csStudentRepoURI.replace("https://github.com/","git@github.com:")
 
-    # Add the .git suffix for consistency of students' repo URIs
-    if ".git" not in csStudentRepoURI[-4:]:
-        csStudentRepoURI+= ".git"
+        # Add the .git suffix for consistency of students' repo URIs
+        if ".git" not in csStudentRepoURI[-4:]:
+            csStudentRepoURI+= ".git"
 
-    print "Running git clone "+str(csStudentRepoURI)+' ./demos/'+csUsername
+        print "Running git clone "+str(csStudentRepoURI)+' ./demos/'+csUsername
 
-    # Try to clone the student's repository with their CS username as the dir name
-    try:
-        subprocess.Popen(['git', 'clone', str(csStudentRepoURI), './demos/'+csUsername],stdout=open(os.devnull, 'wb'))
-        print "Cloning "+csStudentRepoURI+" to demos/"+csUsername+"/"
-    except:
-        print "Could not clone "+csUsername+"'s project repository"
+        # Try to clone the student's repository with their CS username as the dir name
+        try:
+            clone = subprocess.Popen(['git', 'clone', str(csStudentRepoURI), './demos/'+csUsername],stdout=open(os.devnull, 'wb'))
+            print "Cloning "+csStudentRepoURI+" to demos/"+csUsername+"/"
+            clone.wait()
+        except:
+            print "Could not clone "+csUsername+"'s project repository"
