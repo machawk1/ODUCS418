@@ -23,12 +23,16 @@ Below are links to students' project repositories for the class based on their s
 
 ### To be run for each student:
 
-<pre>docker run -it -p 80:80 -e MYSQL_PASS="5pR1nG2OlS" -v `pwd`:/app mkelly/lamptest</pre>
+```
+$ docker run -it -p 80:80 -e MYSQL_PASS="5pR1nG2OlS" -v `pwd`:/app mkelly/lamptest
+```
 
 ### In the instance that the database creation SQL is not provided
  
-<pre>CREATE DATABASE IF NOT EXISTS `lecture4` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-USE `lecture4`;</pre>
+```sql
+CREATE DATABASE IF NOT EXISTS `lecture4` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `lecture4`;
+```
 
 
 ### Enable PHP error reporting
