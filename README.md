@@ -29,3 +29,12 @@ Below are links to students' project repositories for the class based on their s
  
 <pre>CREATE DATABASE IF NOT EXISTS `lecture4` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 USE `lecture4`;</pre>
+
+
+### Enable PHP error reporting
+
+```php
+ini_set('display_errors',1);
+ini_set('display_startup_errors',1);
+error_reporting(-1);
+```
