@@ -23,7 +23,7 @@ Below are links to students' project repositories for the class based on their s
 
 ### To be run for each student:
 
-```
+```sh
 $ docker run -it -p 80:80 -e MYSQL_PASS="5pR1nG2OlS" -v `pwd`:/app mkelly/lamptest
 ```
 
