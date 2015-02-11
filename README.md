@@ -18,3 +18,14 @@ Below are links to students' project repositories for the class based on their s
 * [rodonnel](https://github.com/rcodonnell/cs418Project)
 
 11/13 students (listed above) submitted pull requests.
+
+## Some useful demo day information
+
+### To be run for each student:
+
+ docker run -it -p 80:80 -e MYSQL_PASS="5pR1nG2OlS" -v `pwd`:/app mkelly/lamptest
+
+### In the instance that the database creation SQL is not provided
+ 
+ CREATE DATABASE IF NOT EXISTS `lecture4` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `lecture4`;
