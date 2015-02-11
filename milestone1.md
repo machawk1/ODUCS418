@@ -25,7 +25,7 @@ need to implement new user registration.
 6. For each question, allow other registered users to submit answers to the questions (potentially multiple answers per user per question).
   * Other answers to a question must be displayed along with the associated question.
 7. The ASKER shall have the ability to mark the answer they feel answers their question best. See StackOverflow's checkmark on answers as an example of this.
-8. The question display interface must minimally consist of the question contents, associated answers, the author of the question/answers, and and indicator of the answer marked by the ASKER.
+8. The question display interface must minimally consist of the question contents, associated answers, the author of the question/answers, and an indicator of the answer marked by the ASKER.
 9. The home page for your web site must provide links to the questions previously asked, minimally including the question title.
 
 ### Requirements (Get Ahead)
