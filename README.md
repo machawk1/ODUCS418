@@ -24,7 +24,7 @@ Below are links to students' project repositories for the class based on their s
 * [mletchwo](https://github.com/mletchworth/CS-418)
   * c33e6368e3fd1a091b409abe5638dce9d90fcea9
 * [ngoodall](http://github.com/CatLover91/WebDevCourse)*
-  * 1a26c307e6e26e72cc98cf6d31fd79da1ddf4a37
+  * <strike>1a26c307e6e26e72cc98cf6d31fd79da1ddf4a37</strike> 6dd15914fb64557ca7a3e10dccf557987e4318a6
 * [rodonnel](https://github.com/rcodonnell/cs418Project)**
   * 84857bd784771ae92143699165e9f1b78d5a53bb
 
