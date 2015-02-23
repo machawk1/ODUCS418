@@ -53,4 +53,14 @@ The home page for your web site must be located in a file named "index.php". In 
 
 We will use a [Docker](https://www.docker.com/)-based deployment scheme on demo day. This system will be equipped with the latest PHP, mySQL, and Apache versions. The instance will also expect the milestone2dump.sql and index.php files to be in the root of your project repository and will assume you used the above credentials for interaction with your database.
 
+<!--As an alternative to the above default configuration, you can provide a `config.ini` file in the root of your repository with the follow key-value pairs. You can customize the values but if the `config.ini` file is provided, it will override the other defaults specified above.
+
+```
+[cs418]
+dbuser=admin
+dbpass=5pR1nG2OlS
+dbname=cs418proj
+dbdump=milestone1dump.sql
+```-->
+
 Per the [syllabus](http://www.cs.odu.edu/~mkelly/semester/2015_spring/cs418/syllabus.txt), a brief writeup detailing how each requirement was met, design decisions, programming tricks, and helpful resources consulted is required to be submitted as a hard copy on demo day.
