@@ -3,7 +3,7 @@ ODUCS418
 This GitHub repository will be the basis for submitting assignments for CS418 - Web Programming at Old Dominion University for the Spring 2015 semester, taught by Mat Kelly (<a href="https://github.com/machawk1">@machawk1</a>).
 
 ## Student Project Repositories 
-Below are links to students' project repositories for the class based on their submission in <a href="http://www.cs.odu.edu/~mkelly/semester/2015_spring/cs418/assignments/assignment1.html">assignment 1</a>. The commit that was used as the basis for the milestone 1 presentation is linked beside each student. If a modified commit was needed (for example, if the CREATE database command was not in the SQL dump), an additional hash is supplied.
+Below are links to students' project repositories for the class based on their submission in <a href="http://www.cs.odu.edu/~mkelly/semester/2015_spring/cs418/assignments/assignment1.html">assignment 1</a>. 
 
 * [achverch](https://github.com/andrewchverch/WebProjectCS) ([Milestone 1](https://github.com/andrewchverch/WebProjectCS/6da11c433b2d41c2a95bf6dc9946e050259c13c7))
 * [acoffman](https://github.com/atc07d/WebProgramming) ([Milestone 1](https://github.com/atc07d/WebProgramming/6cdaf87f2203940c909c14de5dc82822f5709fdb))
