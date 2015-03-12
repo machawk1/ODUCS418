@@ -5,6 +5,8 @@ MAINTAINER Mat Kelly <mkelly@cs.odu.edu>
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && \
   apt-get -y install supervisor git apache2 libapache2-mod-php5 mysql-server php5-mysql pwgen php-apc php5-mcrypt
+RUN php5enmod mcrypt
+
 
 # Add image configuration and scripts
 ADD start-apache2.sh /start-apache2.sh
