@@ -11,7 +11,7 @@ done
 echo "=> MySQL Started"
 
 echo "=> Importing SQL file"
-mysql -uroot --force < /app/milestone1dump.sql
+mysql -uroot --force < /app/milestone2dump.sql
 
 echo "=> All done"
 
