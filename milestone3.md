@@ -21,7 +21,7 @@ The four milestones' and midway presentation dates and deadlines will be defined
 3. When displaying a question in your user interface, also display the supplied tags.
 4. When a USER selects a tag when viewing a question, provide an additional web page that displays others questions in your database that have also had this tag attributed by ASKERS in the past.
 
-#### Administration
+### Administration
 1. Provide a special user account (ADMINISTRATOR) that allows the questions in the database to be edited or deleted.
 2. Provide a user interface for ADMINISTRATORs to edit or delete questions as well as view user information about individual users including:
   # The number of questions the user has asked
@@ -29,7 +29,7 @@ The four milestones' and midway presentation dates and deadlines will be defined
 3. Allow an administrator to "freeze" a question, which should result in no further answers being able to be submitted by other users as well as preventing the ASKER from marking an answer.
 4. An administrator should also be able to "unfreeze" a question, once again allowing answers to be submitted and allowing the question to be marked by the ASKER.
 
-#### User
+### User
 1. Display the user's SCORE (per 2.2) adjacent to the user's username any time the username is displayed.
 2. Provide a textbox in your interface to allow any registered user to query your database to look up any other user. The result of the lookup must display the user's profile page from milestone 2.
 3. Each time a user types a letter in the textbox, perform an Ajax request to query your database, return, and display preliminary results.
