@@ -7,6 +7,9 @@ RUN apt-get update && \
   apt-get -y install supervisor git apache2 libapache2-mod-php5 mysql-server php5-mysql pwgen php-apc php5-mcrypt
 RUN php5enmod mcrypt
 RUN sed -i 's/expose_php = On/expose_php = Off/g' /etc/php5/apache2/php.ini
+RUN sed -i 's/ServerTokens OS/ServerTokens Prod/g' /etc/apache2/conf-enabled/security.conf
+RUN sed -i 's/ServerSignature On/ServerSignature Off/g' /etc/apache2/conf-enabled/security.conf
+
 
 # Add image configuration and scripts
 ADD start-apache2.sh /start-apache2.sh
