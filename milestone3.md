@@ -24,13 +24,13 @@ The four milestones' and midway presentation dates and deadlines will be defined
 ### Administration
 1. Provide a special user account (ADMINISTRATOR) that allows the questions in the database to be edited or deleted.
 2. Provide a user interface for ADMINISTRATORs to edit or delete questions as well as view user information about individual users including:
-  # The number of questions the user has asked
-  # The sum of the values (SCORE) for the respective user's question. There exists only one SCORE value per user.
+  1. The number of questions the user has asked
+  2. The sum of the values (SCORE) for the respective user's question. There exists only one SCORE value per user.
 3. Allow an administrator to "freeze" a question, which should result in no further answers being able to be submitted by other users as well as preventing the ASKER from marking an answer.
 4. An administrator should also be able to "unfreeze" a question, once again allowing answers to be submitted and allowing the question to be marked by the ASKER.
 
 ### User
-1. Display the user's SCORE (per 2.2) adjacent to the user's username any time the username is displayed.
+1. Display the user's SCORE adjacent to the user's username any time the username is displayed.
 2. Provide a textbox in your interface to allow any registered user to query your database to look up any other user. The result of the lookup must display the user's profile page from milestone 2.
 3. Each time a user types a letter in the textbox, perform an Ajax request to query your database, return, and display preliminary results.
   * For example, if two users in your database have usernames "pallen" and "paulo", typing "pa" in the textbox would preliminarily display both user's names with a means to directly access the users' respective profiles.
