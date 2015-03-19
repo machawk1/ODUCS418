@@ -5,17 +5,17 @@ This GitHub repository will be the basis for submitting assignments for CS418 - 
 ## Student Project Repositories 
 Below are links to students' project repositories for the class based on their submission in <a href="http://www.cs.odu.edu/~mkelly/semester/2015_spring/cs418/assignments/assignment1.html">assignment 1</a>. 
 
-* [achverch](https://github.com/andrewchverch/WebProjectCS) ([Milestone 1](https://github.com/andrewchverch/WebProjectCS/6da11c433b2d41c2a95bf6dc9946e050259c13c7))
-* [acoffman](https://github.com/atc07d/WebProgramming) ([Milestone 1](https://github.com/atc07d/WebProgramming/6cdaf87f2203940c909c14de5dc82822f5709fdb))
+* [achverch](https://github.com/andrewchverch/WebProjectCS) ([Milestone 1](https://github.com/andrewchverch/WebProjectCS/6da11c433b2d41c2a95bf6dc9946e050259c13c7))([Milestone 2](https://github.com/andrewchverch/WebProjectCS/commit/253efb06fe0cd3e1151fb12370ff2b04ab4d03ac))
+* [acoffman](https://github.com/atc07d/WebProgramming) ([Milestone 1](https://github.com/atc07d/WebProgramming/6cdaf87f2203940c909c14de5dc82822f5709fdb))([Milestone 2](https://github.com/atc07d/WebProgramming/commit/a3c4afe1520a0f628367f96e01dcb66a04c13895))
 * [cbliss](https://github.com/thecbliss/cblissCS418) ([Milestone 1](https://github.com/thecbliss/cblissCS418/dc7e4ebe6540ac52c7f67c8a8feb0154b412965c))
-* [cteague](https://github.com/chateague/Chas-ODUCS418) ([Milestone 1](https://github.com/chateague/Chas-ODUCS418/21f77c93f2645eae3b6123a53ae65635b006e679))
-* [dwebste](https://github.com/DWebsterJr/Spring15) ([Milestone 1](https://github.com/DWebsterJr/Spring15/fcc2c3e175fd499180298478018b578c9ed5167a))
-* [jbennett](https://github.com/jbennett122/JBENNETT_CS418) ([Milestone 1](https://github.com/jbennett122/JBENNETT_CS418/d40272425532641df0e1178e5e3417aa048b70ee))
+* [cteague](https://github.com/chateague/Chas-ODUCS418) ([Milestone 1](https://github.com/chateague/Chas-ODUCS418/21f77c93f2645eae3b6123a53ae65635b006e679))([Milestone 2](https://github.com/chateague/Chas-ODUCS418/commit/37f1be41fdffdac26bc6addf12632b847d0bd05d))
+* [dwebste](https://github.com/DWebsterJr/Spring15) ([Milestone 1](https://github.com/DWebsterJr/Spring15/fcc2c3e175fd499180298478018b578c9ed5167a))([Milestone 2](https://github.com/DWebsterJr/Spring15/commit/58f3ff3d97de3456756c977d63673f916b6f048a))
+* [jbennett](https://github.com/jbennett122/JBENNETT_CS418) ([Milestone 1](https://github.com/jbennett122/JBENNETT_CS418/d40272425532641df0e1178e5e3417aa048b70ee))([Milestone 2](https://github.com/jbennett122/JBENNETT_CS418/commit/07e47471ca0d65e5a43e0e0105a8639b251c9842))
 * [kshena](https://github.com/kshena/Ridi) ([Milestone 1](https://github.com/kshena/Ridi/4d46b914d39229e31c348cd6ffc0191b4d12ce33))
-* [mvanacor](https://github.com/mvanacor/cs418Project) ([Milestone 1](https://github.com/mvanacor/cs418Project/e5055b9b44b928039b2d7ff1e5f57c3fcfc34392))
-* [mletchwo](https://github.com/mletchworth/CS-418) ([Milestone 1](https://github.com/mletchworth/CS-418/c33e6368e3fd1a091b409abe5638dce9d90fcea9))
-* [ngoodall](http://github.com/CatLover91/WebDevCourse) ([Milestone 1](http://github.com/CatLover91/WebDevCourse/6dd15914fb64557ca7a3e10dccf557987e4318a6))
-* [rodonnel](https://github.com/rcodonnell/cs418Project) ([Milestone 1](https://github.com/rcodonnell/cs418Project/84857bd784771ae92143699165e9f1b78d5a53bb))
+* [mvanacor](https://github.com/mvanacor/cs418Project) ([Milestone 1](https://github.com/mvanacor/cs418Project/e5055b9b44b928039b2d7ff1e5f57c3fcfc34392))([Milestone 2](https://github.com/mvanacor/cs418Project/commit/775e196889120ba5ff9e863cbf4105c9a2e749c5)) 
+* [mletchwo](https://github.com/mletchworth/CS-418) ([Milestone 1](https://github.com/mletchworth/CS-418/c33e6368e3fd1a091b409abe5638dce9d90fcea9))([Milestone 2](https://github.com/mletchworth/CS-418/commit/573b557e2e1f3ae474aa4945a443a76ba60c9b8a)) - M2 will be updated with MySQL dump
+* [ngoodall](http://github.com/CatLover91/WebDevCourse) ([Milestone 1](http://github.com/CatLover91/WebDevCourse/6dd15914fb64557ca7a3e10dccf557987e4318a6))([Milestone 2](https://github.com/CatLover91/WebDevCourse/commit/b4770e4225ef75ee0185caf17971bd540e8fddc0))
+* [rodonnel](https://github.com/rcodonnell/cs418Project) ([Milestone 1](https://github.com/rcodonnell/cs418Project/84857bd784771ae92143699165e9f1b78d5a53bb))([Milestone 2](https://github.com/rcodonnell/cs418Project/commit/33e00126a7ee0055a1905e02d83e3e9d766e0b62))
 * [wdougher](https://github.com/wdoug004/CS418Project) ([Milestone 1]())
 
 12/13 students (listed above) submitted pull requests.
