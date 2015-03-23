@@ -1,0 +1,77 @@
+\newcommand{\studentName}{%
+\vspace{0.5em}\small student: \rule{50mm}{.1pt}
+}
+
+
+\title{CS418 Milestone 2 Grade Sheet \\\studentName}
+\date{\vspace{-10ex}}
+
+\documentclass[11pt]{article}
+\usepackage[margin=2cm]{geometry}
+\begin{document}
+\maketitle
+
+\newcommand{\grade}[1]{\item[\rule{5mm}{.1pt}/#1]}
+
+
+\let\oldenumerate\itemize
+\renewcommand{\itemize}{
+  \oldenumerate
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}
+
+{\footnotesize
+\section*{\normalsize Base Requirements}
+\begin{itemize}
+\grade{2} For each answer provided by users, provide the ability for other registered users to vote up or down the answer.
+\end{itemize}
+
+\section*{\normalsize Voting}
+\begin{itemize}
+\grade{1} For each answer provided by users, provide the ability for other registered users to vote up or down the answer.
+\grade{1} The ``value'' attributed to an answer shall (for simplicity) be assigned based on the sum of ``votes up'' and ``votes down'' where a vote up contributes +1 and a vote down contributes -1.
+\grade{1} The value must be displayed on the question page.
+\grade{1} The up and down votes must be stored in the database and associated with the ANSWER.
+\grade{1} Answers that are not selected by the ASKER shall continue to be displayed, even after the ASKER has marked another answer as correct. The unmarked answers shall be placed secondarily to the marked answer in the descending order of value.
+\grade{1} The question's ``value'' must be displayed in the question display interface, as determined by the votes.
+\grade{1} A registered user must not be able to vote on an answer twice.
+\grade{1} Registered users can``vote up'' or "vote down" questions, which provide the basis for a question's ``value'', much like answers.
+\grade{1} The questions with the top 5 values must be displayed on your web site's home page.
+\end{itemize}
+
+\section*{\normalsize User Profiles}
+\begin{itemize}
+\grade{1} An interface must be provided to allow a user to upload a profile picture (avatar).
+\grade{1} A user's avatar should be displayed alongside the question on a question page when the user is the asker. When a user provides an answer to a question, the answerer's avatar must be displayed alongside the answer.
+\grade{1} Create a PROFILE PAGE that uses PHP query parameters to build the page's contents. This query parameter must indicate a value that can be used to uniquely query the user from your database. On this profile page, display the user's username, avatar, and all questions asked along with the corresponding question's current value.
+\grade{1} Provide an HTML form for new users to register for your Q\&A website by providing a username and password. When a username is provided for registration that already exists in your database, reject the rejections and ask the user to select another.
+\end{itemize}
+
+\section*{\normalsize Brief Project Writeup}
+\begin{itemize}
+\grade{3} Submitted on demo day - How is each requirement met, design decisions, programming tricks, helpful resources consulted
+\end{itemize}
+
+\section*{\normalsize Website Usability}
+\begin{itemize}
+\grade{3} How easy is the site to use?
+\end{itemize}
+
+\section*{\normalsize Website Aesthetics}
+\begin{itemize}
+\grade{2} How nice does the site look?
+\end{itemize}
+
+\section*{\normalsize Midway Status Report}
+\begin{itemize}
+\grade{2} 3-4 min presentation on assignment progress
+\end{itemize}
+
+{\centering 
+\framebox[1.0\linewidth]{\Large MILESTONE 2 GRADE: \rule{10mm}{.1pt}/25}
+}
+
+\pagenumbering{gobble}
+\end{document}
