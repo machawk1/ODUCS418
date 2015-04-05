@@ -16,7 +16,7 @@ fi
 
 #sleep 5
 
-mysqlFile="/app/milestone2dump.sql"
+mysqlFile="/app/milestone3dump.sql"
 if [ -f $mysqlFile ]; then
     echo "Importing MySQL data from $mysqlFile"
     /import_sql.sh &
