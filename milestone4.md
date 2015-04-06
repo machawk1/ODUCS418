@@ -23,7 +23,7 @@ The four milestones' and midway presentation dates and deadlines will be defined
 
 ### APIs
 #### GitHub
-1. Allow a user to log into your web site using their GitHub credentials. Validate the credentials using the GitHub API.
+1. Allow a user to log into your web site using their GitHub credentials. Validate the credentials using the [GitHub API](https://developer.github.com/v3/).
 2. When a user is logged in using their GitHub credentials, use their GitHub avatar as the user's avatar on your web site.
   * This will need to be dynamic. If I am logged in with my GitHub credentials, post, then change my avatar on GitHub, my avatar on your web site ought to reflect this change retroactively.
 3. Questions & Answers by a GitHub user should always display their current avatar when the web page is accessed and not the one that existed when the user posted a question/answer.
