@@ -2,7 +2,7 @@
 
 The course project will have students build a "Question & Answer" website akin to those from [StackExchange.com](http://StackExchange.com) (namely, [StackOverflow.com](http://StackOverflow.com)). The project will be broken down into four milestones, where a milestone will consist of requirements to be met by each student's implementation.
 
-Each milestone will have a set of "Base Requirements". Students only need to be concerned with meeting the Base Requirements for the milestone's deliverables.
+Each milestone will have a set of "Base Requirements". Students only need to be concerned with meeting the Base Requirements for the milestone's deliverables. Additional bonus requirements are also provided for students that wish to obtain extra credit on their CS418 grade.
 
 About half way through the milestone (see the [schedule](http://www.cs.odu.edu/~mkelly/semester/2015_spring/cs418/) for due dates), a midway status report will be presented in class by each student. This report will consist of a 2-3 minute presentation (with slides) describing the planning done by the student to meet the milestone's requirements, preliminary design strategies, the status of development, and any further information to signify that progress is being made. A demo is not necessary but screenshots are encouraged. This presentation will be worth 2 of the 25 points for the milestone. You will get 0 of 2 points if you are not present or fail to show progress. Even beginning to think about the problem or develop design is considered progress, so long as you show it in the midway status report.
 
@@ -32,6 +32,11 @@ The four milestones' and midway presentation dates and deadlines will be defined
 1. Upon a user registering for your web site (i.e., not GitHub users), utilize the [Gravatar API](https://en.gravatar.com/site/implement/) to associate with the user on your system based on the e-mail address the user supplied.
 2. Allow a user to override their Gravatar image by uploading a custom avatar, per [Milestone 2](https://github.com/machawk1/ODUCS418/blob/spring2015/milestone2.md).
 3. Allow a user to remove their associated avatar to default to a generic avatar image within your system (for the users in the [credentials file](https://github.com/machawk1/ODUCS418/blob/spring2015/credentials.txt)) or to default to their Gravatar image if one exists for their associated e-mail address.
+
+### Requirements (Bonus)
+The Docker deployment system has been updated to supply a consistent port number for each student. Completing these requirements are optional but are worth bonus points for a student's CS418 grade.
+
+1. Integrate your Q&A site with the [No CAPTCHA ReCAPTCHA API](https://developers.google.com/recaptcha/intro) by requiring a user to fulfill the CAPTCHA requirement before proceeding with some functionality of your web site.
 
 ## Submission
 
