@@ -36,7 +36,7 @@ The four milestones' and midway presentation dates and deadlines will be defined
 ### Requirements (Bonus)
 The Docker deployment system has been updated to supply a consistent port number for each student. Completing these requirements are optional but are worth bonus points for a student's CS418 grade.
 
-1. Integrate your Q&A site with the [No CAPTCHA ReCAPTCHA API](https://developers.google.com/recaptcha/intro) by requiring a user to fulfill the CAPTCHA requirement before proceeding with some functionality of your web site.
+1. Integrate your Q&A site with the [No CAPTCHA ReCAPTCHA API](https://developers.google.com/recaptcha/intro) by requiring a user to fulfill the CAPTCHA requirement before proceeding with some functionality of your web site. Reuse of [libraries for PHP](https://github.com/google/recaptcha) is discouraged for this requirement (i.e., roll your own implementation to maximize credit).
 
 ## Submission
 
