@@ -47,9 +47,9 @@ username: admin
 password: 5pR1nG2OlS
 ```
 
-The home page for your web site must be located in a file named "index.php".  In addition to the files for the web site, you should also provide a backup of your MySQL database for importing for your project demo. This can be accomplished in the phpMyAdmin Export tab. The resulting file should be a .sql file. This file will be loaded into a MySQL instance on demo day, so verification of the integrity of the dump (i.e., try to import it using phpMyAdmin) is encouraged. Include this file in the root of your project repository as milestone3dump.sql. Include enough questions, answers, and users to effectively evaluate your web site.
+The home page for your web site must be located in a file named "index.php".  In addition to the files for the web site, you should also provide a backup of your MySQL database for importing for your project demo. This can be accomplished in the phpMyAdmin Export tab. The resulting file should be a .sql file. This file will be loaded into a MySQL instance on demo day, so verification of the integrity of the dump (i.e., try to import it using phpMyAdmin) is encouraged. Include this file in the root of your project repository as milestone4dump.sql. Include enough questions, answers, and users to effectively evaluate your web site.
 
-We will use a [Docker](https://www.docker.com/)-based deployment scheme on demo day. This system will be equipped with the latest PHP, mySQL, and Apache versions. The instance will also expect the milestone3dump.sql and index.php files to be in the root of your project repository and will assume you used the above credentials for interaction with your database.
+We will use a [Docker](https://www.docker.com/)-based deployment scheme on demo day. This system will be equipped with the latest PHP, mySQL, and Apache versions. The instance will also expect the milestone4dump.sql and index.php files to be in the root of your project repository and will assume you used the above credentials for interaction with your database.
 
 As an alternative to the above default configuration, you can provide a `config.ini` file in the root of your repository with the follow key-value pairs. You can customize the values but if the `config.ini` file is provided, it will override the other defaults specified above.
 
