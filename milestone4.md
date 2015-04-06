@@ -40,7 +40,7 @@ The Docker deployment system has been updated to supply a consistent port number
 
 ## Submission
 
-At 3:00pm on the demo day, a script will clone the GitHub repository [you specified](https://github.com/machawk1/ODUCS418/tree/spring2015/users) in [assignment 1](http://www.cs.odu.edu/~mkelly/semester/2015_spring/cs418/assignments/assignment1.html).
+At 3:45pm on the demo day (time modified for exam schedule), a script will clone the GitHub repository [you specified](https://github.com/machawk1/ODUCS418/tree/spring2015/users) in [assignment 1](http://www.cs.odu.edu/~mkelly/semester/2015_spring/cs418/assignments/assignment1.html).
 
 ## Deliverables
 
